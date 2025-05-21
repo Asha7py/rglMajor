@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Melihat Kebawah', 'Melihat keatas', 'Melihat kekanan', 'melihat kekiri', 'movement']
+
+roboflow:
+  workspace: motion-detection-hahoe
+  project: movement-detection-ytei9
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/motion-detection-hahoe/movement-detection-ytei9/dataset/1
